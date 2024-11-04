@@ -1,0 +1,124 @@
+/* Styles for the ContactPage component */
+
+/* contact.css */
+
+/* Main container for the contact page */
+.contact-page {
+  width: 100%; /* Take up full width */
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px; /* Add padding */
+}
+
+/* Styling for each contact detail */
+.contact-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Icon styling */
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 50%; /* Rounded shape */
+}
+
+/* Styling for contact information */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for labels */
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Styling for values */
+.value {
+  color: #333;
+}
+
+/* Styling for the contact form */
+.contact-form {
+  margin-top: 40px;
+}
+
+/* Styling for form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Styling for labels within form */
+label {
+  display: block;
+  font-weight: bold;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for textarea resizing */
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button styling for form submission */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for social media section */
+.social-media {
+  margin-top: 40px;
+}
+
+/* Styling for social media links */
+.social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Styling for social media link anchor tags */
+.social-media li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+/* Styling for office address section */
+.office-address {
+  margin-top: 40px;
+}
+
+/* Additional styling for map (if applicable) */
+.map {
+  margin-top: 40px;
+}

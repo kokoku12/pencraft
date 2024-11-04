@@ -1,0 +1,23 @@
+/* Styles for the About component */
+
+.about {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.aboutWrapper {
+  width: 70%; /* Width of content */
+  text-align: center; /* Center align content */
+}
+
+.aboutHeader {
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.aboutImage {
+  width: 500px; /* Set width */
+  border-radius: 50%; /* Rounded shape */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}

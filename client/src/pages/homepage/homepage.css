@@ -1,0 +1,6 @@
+/* CSS styles for the Homepage component */
+
+/* Flex layout for the home container */
+.home {
+  display: flex; /* Display children elements in a row */
+}

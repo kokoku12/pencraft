@@ -1,0 +1,75 @@
+/* Styles for the single post container */
+.singlePost {
+  flex: 9; /* Takes up most of the available space */
+}
+
+/* Styles for the wrapper of the single post content */
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0; /* Remove right padding */
+}
+
+/* Styles for the post image */
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* Styles for the post title */
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
+}
+
+/* Styles for the edit and delete icons */
+.singlePostEdit {
+  float: right; /* Position icons to the right */
+  font-size: 16px;
+}
+
+/* Styles for individual post icons */
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Styles for the first and last child icons */
+.singlePostIcon:first-child {
+  color: teal; /* Color for edit icon */
+}
+.singlePostIcon:last-child {
+  color: tomato; /* Color for delete icon */
+}
+
+/* Styles for post information */
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between; /* Space between author and timestamp */
+  font-size: 16px;
+  color: #be9656; /* Color for post info */
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+/* Styles for the author name */
+.singlePostAuthor {
+  margin-left: 5px;
+}
+
+/* Styles for the post description */
+.singlePostDesc {
+  color: #666; /* Color for post description */
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Styles for the first letter of the post description */
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}

@@ -1,0 +1,35 @@
+/* Styles for the header container */
+.header {
+  margin-top: 60px; /* Top margin */
+}
+
+/* Styles for the header titles */
+.headerTitles {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  font-family: "Lora", serif; /* Font family */
+  color: #444; /* Text color */
+}
+
+/* Styles for small header title */
+.headerTitleSm {
+  position: absolute; /* Positioning */
+  top: 18%; /* Distance from the top */
+  font-size: 20px; /* Font size */
+}
+
+/* Styles for large header title */
+.headerTitleLg {
+  position: absolute; /* Positioning */
+  top: 20%; /* Distance from the top */
+  font-size: 100px; /* Font size */
+}
+
+/* Styles for header image */
+.headerImg {
+  width: 100%; /* Full width */
+  height: 450px; /* Height of the image */
+  margin-top: 80px; /* Top margin */
+  object-fit: cover; /* Maintain aspect ratio and cover entire container */
+}

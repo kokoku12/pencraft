@@ -1,0 +1,73 @@
+/* Styles for the top navigation bar */
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky; /* Ensures the navbar sticks to the top of the viewport */
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999; /* Ensures the navbar stays on top of other content */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Styles for the left and right sections of the navbar */
+.topLeft,
+.topRight {
+  flex: 3; /* Both sections take up equal space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for social media icons */
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+/* Styles for the center section of the navbar */
+.topCenter {
+  flex: 6; /* Takes up more space than the left and right sections */
+}
+
+/* Styles for the list of navigation links */
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Styles for individual navigation list items */
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+/* Hover effect for navigation list items */
+.topListItem:hover {
+  color: gray;
+}
+
+/* Styles for user profile image */
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Renders the image as a circle */
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* Styles for search icon */
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+}

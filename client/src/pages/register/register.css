@@ -1,0 +1,71 @@
+/* CSS styles for the Register component */
+
+/* Register container */
+.register {
+  height: calc(100vh - 50px); /* Set height to 100% of viewport height minus 50px */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); /* Background image with gradient overlay */
+  background-size: cover; /* Cover entire container */
+}
+
+/* Title styling */
+.registerTitle {
+  font-size: 50px; /* Large font size */
+}
+
+/* Form layout */
+.registerForm {
+  margin-top: 20px; /* Add margin on top */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Label styling for form */
+.registerForm > label {
+  margin: 10px 0; /* Add margin top and bottom */
+}
+
+/* Input field styling */
+.registerInput {
+  padding: 10px; /* Add padding */
+  background-color: white; /* White background */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Remove focus outline for input */
+.registerInput:focus {
+  outline: none;
+}
+
+/* Button styling for registration */
+.registerButton {
+  margin-top: 20px; /* Add margin on top */
+  cursor: pointer; /* Cursor pointer on hover */
+  background-color: teal; /* Teal background */
+  color: white; /* White text color */
+  padding: 10px; /* Add padding */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center text */
+}
+
+/* Styling for login button */
+.registerLoginButton {
+  position: absolute; /* Position absolute */
+  top: 60px; /* Position from top */
+  right: 20px; /* Position from right */
+  background-color: lightcoral; /* Light coral background */
+  cursor: pointer; /* Cursor pointer on hover */
+  padding: 10px; /* Add padding */
+  border: none; /* Remove border */
+  color: white; /* White text color */
+  border-radius: 10px; /* Rounded corners */
+}

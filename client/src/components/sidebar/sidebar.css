@@ -1,0 +1,75 @@
+/* Styles for the sidebar container */
+.sidebar {
+  flex: 3; /* Takes up a portion of available space */
+  height: fit-content; /* Adjusts height based on content */
+  margin: 20px; /* Margin around the sidebar */
+  padding-bottom: 30px; /* Bottom padding */
+  background-color: #fdfbfb; /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Styles for individual sidebar items */
+.sidebarItem {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Styles for sidebar item titles */
+.sidebarTitle {
+  margin: 10px; /* Margin around the title */
+  padding: 5px; /* Padding within the title */
+  width: 80%; /* Width of the title */
+  border-top: solid 1px #a7a4a4; /* Top border */
+  border-bottom: solid 1px #a7a4a4; /* Bottom border */
+  text-align: center; /* Center align text */
+  font-family: "Varela Round", sans-serif; /* Font family */
+  font-size: 12px; /* Font size */
+  line-height: 19px; /* Line height */
+  color: #222222; /* Text color */
+  font-weight: 600; /* Font weight */
+}
+
+/* Styles for images within sidebar items */
+.sidebarItem > img {
+  margin-top: 15px; /* Top margin */
+  width: 250px; /* Width of the image */
+  height: 250px; /* Height of the image */
+}
+
+/* Styles for paragraphs within sidebar items */
+.sidebarItem > p {
+  padding: 30px; /* Padding around paragraphs */
+}
+
+/* Styles for sidebar lists */
+.sidebarList {
+  list-style-type: none; /* Remove bullet points */
+  margin-bottom: 30px; /* Bottom margin */
+}
+
+/* Styles for individual items within sidebar lists */
+.sidebarListItem {
+  display: inline-block; /* Display items inline */
+  width: 50%; /* Set width */
+  margin-top: 15px; /* Top margin */
+  cursor: pointer; /* Cursor style */
+}
+
+/* Styles for social media icons within sidebar */
+.sidebarSocial {
+  margin-top: 15px; /* Top margin */
+  width: 250px; /* Width of the container */
+  display: flex; /* Flex container */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Styles for individual social media icons */
+.sidebarIcon {
+  font-size: 16px; /* Font size */
+  margin-left: 10px; /* Left margin */
+}

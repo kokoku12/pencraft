@@ -1,0 +1,8 @@
+/* Styles for the container of multiple posts */
+.posts {
+    flex: 9; /* Takes up most of the available space */
+    display: flex; /* Flex container */
+    flex-wrap: wrap; /* Allow posts to wrap to the next line */
+    margin: 20px; /* Margin around the posts */
+  }
+  

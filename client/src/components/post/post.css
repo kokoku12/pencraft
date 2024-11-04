@@ -1,0 +1,68 @@
+/* Styles for individual posts */
+.post {
+  width: 385px; /* Width of the post */
+  margin: 0px 25px 40px 25px; /* Margin around the post */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Arrange items vertically */
+}
+
+/* Styles for post images */
+.postImg {
+  width: 385px; /* Width of the image */
+  height: 280px; /* Height of the image */
+  object-fit: cover; /* Maintain aspect ratio and cover entire container */
+  border-radius: 7px; /* Rounded corners */
+}
+
+/* Styles for post information */
+.postInfo {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Styles for post categories */
+.postCat {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif; /* Font family */
+  font-weight: 400; /* Font weight */
+  font-size: 11px; /* Font size */
+  color: #be9656; /* Text color */
+  line-height: 19px; /* Line height */
+  margin-top: 15px; /* Top margin */
+  margin-right: 10px; /* Right margin */
+  cursor: pointer; /* Cursor style */
+}
+
+/* Styles for post title */
+.postTitle {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif; /* Font family */
+  font-size: 24px; /* Font size */
+  font-weight: 900; /* Font weight */
+  margin-top: 15px; /* Top margin */
+  cursor: pointer; /* Cursor style */
+}
+
+/* Styles for post date */
+.postDate {
+  font-family: "Lora", serif; /* Font family */
+  font-style: italic; /* Italic font style */
+  font-size: 13px; /* Font size */
+  font-weight: 400; /* Font weight */
+  color: #999999; /* Text color */
+  margin-top: 15px; /* Top margin */
+}
+
+/* Styles for post description */
+.postDesc {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif; /* Font family */
+  font-weight: 400; /* Font weight */
+  font-size: 14px; /* Font size */
+  line-height: 24px; /* Line height */
+  color: #444444; /* Text color */
+  margin-top: 15px; /* Top margin */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  display: -webkit-box; /* Display as a block element */
+  -webkit-line-clamp: 4; /* Limit to 4 lines */
+  -webkit-box-orient: vertical; /* Arrange text vertically */
+}

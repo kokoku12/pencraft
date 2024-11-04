@@ -1,0 +1,117 @@
+/* CSS styles for the Settings component */
+
+/* Flex layout for the Settings component */
+.settings {
+  display: flex;
+}
+
+/* Wrapper for the settings content */
+.settingsWrapper {
+  flex: 9; /* Take up 90% of available space */
+  padding: 20px; /* Add padding */
+}
+
+/* Title section styling */
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space evenly between elements */
+}
+
+/* Styling for the 'Update Your Account' title */
+.settingsTitleUpdate {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: lightcoral; /* Light coral color */
+}
+
+/* Styling for the 'Delete Account' title */
+.settingsTitleDelete {
+  color: red; /* Red color */
+  font-size: 12px;
+  cursor: pointer; /* Cursor pointer on hover */
+}
+
+/* Form layout */
+.settingsForm {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Profile picture section */
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the profile picture */
+.settingsPP > img {
+  height: 70px;
+  width: 70px;
+  border-radius: 20px; /* Rounded corners */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Styling for the profile picture icon */
+.settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  color: white;
+  background-color: lightcoral; /* Light coral background */
+  cursor: pointer; /* Cursor pointer on hover */
+}
+
+/* Remove focus outline for profile picture button */
+.settingsPPButton:focus {
+  outline-style: none;
+}
+
+/* Styling for form labels */
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Styling for form inputs */
+.settingsPPInput {
+  width: 30%; /* Set width */
+}
+
+.settingsForm > input {
+  color: gray; /* Gray text color */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray; /* Light gray bottom border */
+}
+
+/* Styling for the submit button */
+.settingsSubmitButton {
+  align-self: center; /* Center horizontally */
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal; /* Teal background */
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer; /* Cursor pointer on hover */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover effect for the submit button */
+.settingsSubmitButton:hover {
+  background-color: rgb(1, 114, 114); /* Darker teal on hover */
+}
